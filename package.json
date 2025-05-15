@@ -8,7 +8,7 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production",
-        "build": "npm-run-all build-dev minify copy zip"
+        "build": "npm i npm-run-all -D build-dev minify copy zip"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.0",
