@@ -83,11 +83,11 @@
                             <i class="fa fa-upload"></i> <span>Penjualan</span>
                         </a>
                     </li>
-                    {{-- <li class="{{ (Route::current()->getName() == 'transaksi.index') ? 'active' : '' }}">
+                    <li class="{{ (Route::current()->getName() == 'transaksi.index') ? 'active' : '' }}">
                         <a href="{{ route('transaksi.index') }}">
                             <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Aktif</span>
                         </a>
-                    </li> --}}
+                    </li>
                     <li class="{{ (Route::current()->getName() == 'transaksi.baru') ? 'active' : '' }}">
                         <a href="{{ route('transaksi.baru') }}">
                             <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Baru</span>
@@ -220,11 +220,11 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    {{-- <li class="{{ (Route::current()->getName() == 'transaksi.index') ? 'active' : '' }}">
+                    <li class="{{ (Route::current()->getName() == 'transaksi.index') ? 'active' : '' }}">
                         <a href="{{ route('transaksi.index') }}">
                             <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Aktif</span>
                         </a>
-                    </li> --}}
+                    </li>
                     <li class="{{ (Route::current()->getName() == 'transaksi.baru') ? 'active' : '' }}">
                         <a href="{{ route('transaksi.baru') }}">
                             <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Baru</span>
